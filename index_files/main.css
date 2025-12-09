@@ -592,10 +592,12 @@ body {
     }
 }
 
-.header__logo>img {
-    width: 22.12vh;
-    height: fit-content;
+.header__logo img {
+    width: 100%;
+    max-width: 180px; /* ajuste conforme o tamanho desejado */
+    height: auto !important;
 }
+
 
 @media screen and (orientation: portrait) {
     .header__logo>img {
